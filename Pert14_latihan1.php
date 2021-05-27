@@ -8,7 +8,7 @@ session_start();
 if (isset ($_POST['Login'])) {
 $user = $_POST['user'];
 $pass = $_POST['pass'];//periksa login
-if ($user == "ahmad baihaqi" && $pass = "123") {
+if ($user == "Martin Siregar" && $pass = "wkwk") {
 //menciptakan session
 $_SESSION['login'] = $user;
 //menuju ke halaman pemeriksaan session
